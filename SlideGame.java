@@ -36,7 +36,7 @@ public class SlideGame extends Application{
       }
       grid.addRow(i, buttons[i]);
     }
-    //stores the two indices to start one random square off as one
+    //stores the two indices to start one random square off as two
     int indOne = (int)(Math.random() * width);
     int indTwo = (int)(Math.random() * length);
     buttons[indOne][indTwo].setText("2");
